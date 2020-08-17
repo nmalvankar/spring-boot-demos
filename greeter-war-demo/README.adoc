@@ -10,8 +10,6 @@ To run this example application on your local host:
 
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ unzip greeter-tomcat-demo.zip
-
 $ cd greeter-tomcat-demo
 
 $ mvn spring-boot:run
