@@ -40,6 +40,15 @@ NOTE: To stop your running example application in a Linux or macOS terminal, use
 . Restart your example application.
 . Verify the change took effect.
 
+== Running the Example Application on a standalone JBoss Web Server(JWS) 5 (Tomcat 9) instance
+If you have a standalone JWS 5 instance, you can also deploy your example there
+----
+$ mvn clean package
+
+$ cp target/greeter-tomcat-demo-1.0.0.war $JWS5.3_HOME/tomcat/webapps/
+
+$ $JWS5.3_HOME/bin/startup.sh
+----
 
 == Running the Example Application on a Single-node OpenShift Cluster
 If you have a single-node OpenShift cluster, such as Minishift or Red Hat Container Development Kit, installed and running, you can also deploy your example application there. A single-node OpenShift cluster provides you with access to a cloud environment that is similar to a production environment.
