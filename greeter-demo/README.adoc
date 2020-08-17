@@ -40,7 +40,7 @@ NOTE: To stop your running example application in a Linux or macOS terminal, use
 . Restart your example application.
 . Verify the change took effect.
 
-== Running the Example Application on a standalone JBoss Web Server(JWS) 5 (Tomcat 9) instance
+== Running the Example Application on a standalone JBoss Web Server(JWS) 5 (Tomcat 9)
 If you have a standalone JWS 5 instance, you can also deploy your example there
 ----
 $ mvn clean package
